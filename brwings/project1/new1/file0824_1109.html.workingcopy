@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="../lib/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'packages':[{'name':'gridx','location':'../gridx'},{'name':'gridx-src','location':'../gridx'},{'name':'clipart','location':'../../clipart'},{'name':'shapes','location':'../../shapes'},{'name':'maqettaSamples','location':'../../../samples'},{'name':'maqetta','location':'../../maqetta'},{'name':'zazl','location':'../../zazl'},{'name':'dojo-src','location':'..'},{'name':'widgets','location':'../../custom'}]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "clipart/ArrowUp",
+  "clipart/Close",
+  "clipart/Browser"
+]);
+</script>
+<style>@import "../themes/claro/document.css";@import "../themes/claro/claro.css";@import "../app.css";
+</style>
+<script type="text/javascript" src="../app.js"></script>
+</head>
+<body class="claro" data-maq-flow-layout="true" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+ <img data-dojo-type="clipart.Browser"></img>
+ </body>
+</html>
